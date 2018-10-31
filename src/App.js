@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+
+import Navbar from "./components/Navbar";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        时光网   <br/>项目启动仪式
+
+        <Navbar></Navbar>
+
+        {
+          this.props.children
+        }
+        
       </div>
     );
   }

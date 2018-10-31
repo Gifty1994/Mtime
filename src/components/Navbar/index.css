@@ -1,0 +1,60 @@
+#Navbar{
+    width: 100%;
+    height: .5rem;
+    background:#1c2635;
+    color: white;
+}
+
+#Navbar ul{
+    width: 100%;
+    height: 100%;
+    line-height: .5rem;
+    overflow: hidden;
+}
+
+#Navbar ul li{
+    float: left;
+    text-align: center;
+    margin-left: .23rem;
+    
+}
+
+#Navbar ul li a{
+    display: block;
+    text-decoration: none;
+    color: #bbb;
+    height: .47rem;
+}
+
+#Navbar ul li .mtime{
+    color: #bbb;
+    display: inline-block;
+    height: .5rem;
+    line-height: .6rem;
+    position: relative;
+}
+
+#Navbar ul li .mtime img{
+    width: .6rem;
+    height: .2rem;
+}
+
+#Navbar ul li .myself{
+    color: #bbb;
+    display: inline-block;
+    width: .4rem;
+    height: .5rem;
+    line-height: .6rem;
+    position: relative;
+}
+
+#Navbar ul li .myself img{
+    width: .2rem;
+    height: .25rem;
+}
+
+#Navbar ul li a.avtive {
+   color: #fff;
+   font-weight: bold;
+   border-bottom: 3px solid #fff;
+}
