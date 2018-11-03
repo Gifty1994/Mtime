@@ -3,10 +3,8 @@ import { Carousel, WingBlank } from 'antd-mobile';
 import axios from 'axios';
 import 'antd-mobile/dist/antd-mobile.css';
 import "./index.scss";
-
-
-
-
+import Bottom from "../Bottom";
+import Navbar from "../Navbar";
 
 
 
@@ -58,6 +56,7 @@ class Shop extends Component {
         return (
         <div id="Shop">
 
+        <Navbar></Navbar>
         	{/*头部搜索*/}
            <div className="shop">
 				<div className="shopNav">
@@ -201,7 +200,13 @@ class Shop extends Component {
 
 			<div className="jiazai">奋力加载中。。。</div>
 
+
+			<Bottom></Bottom>
+
 		</div>)
+
+
+
     }
 }
 
