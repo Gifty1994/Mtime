@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 26.666667vw;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+#Bottom {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+#Bottom .footer {
+    background: #f6f6f6;
+    border-top: 1px solid #f6f6f6;
+}
+
+#Bottom .footer .link {
+    width: 100%;
+    height: .49rem;
+    background: #fff;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#Bottom .footer .link ul {
+    width: 100%;
+}
+
+#Bottom .footer .link ul li {
+    width: 20%;
+    float: left;
+}
+
+#Bottom .footer .link ul li a {
+    color: #ff8600;
+    display: block;
+    text-align: center;
+    padding: .14rem 0 .135rem;
+}
+
+#Bottom .footer .link ul li a span {
+    color: #0074c5;
+    font-size: .18rem;
+}
+
+#Bottom .footer .footlink {
+    width: 100%;
+    height: .51rem;
+    padding-top: .2rem;
+    box-sizing: border-box;
+}
+
+#Bottom .footer .footlink .bottom {
+    width: 100%;
+}
+
+#Bottom .footer .footlink .bottom li a {
+    color: #333;
+}
+
+#Bottom .footer .footlink .bottom li {
+    width: 24%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+#Bottom .footer .footlink .bottom li a span {
+    color: #333;
+    font-size: .14rem;
+    overflow: hidden;
+    display: block;
+
+}
+
+#Bottom .footer .footlink .bottom li:last-child {
+    border: none;
+}
+
+#Bottom .footer .copy {
+    padding: 0 0 .2rem 0;
+}
+
+#Bottom .footer .copy p {
+    text-align: center;
+    color: #cdcdcd;
+    font-size: .11rem;
+}
+
+#Bottom .footer .copy p .mtime_pic {
+    width: .7rem;
+}
+
+#Bottom .footer .copy p .work_pic {
+    width: .76rem;
+}

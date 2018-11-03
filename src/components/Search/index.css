@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+#Search .movie_search {
+    width: 100%;
+    height: .6rem;
+    background: #1c2635;
+    overflow: hidden;
+    padding: .1rem .2rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+}
+
+#Search .movie_search .hea_search {
+    width: 100%;
+    height: .39rem;
+    position: absolute;
+    left: 0;
+    top: .1rem;
+}
+
+#Search .movie_search .hea_search a {
+    color: #333;
+}
+
+#Search .movie_search .hea_search .anticon{
+    font-size: .25rem;
+    color: #ffffff;
+    position: absolute;
+    top: .06rem;
+    left:.05rem;
+}
+
+#Search .movie_search .hea_search .input {
+    display: inline-block;
+    width: 2.5rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: .4rem;
+    border-radius: .1rem;
+    border: 1px solid #bbb;
+    background: #ffffff;
+}
+
+#Search .movie_search .hea_search .input img {
+    width: .2rem;
+    margin-top: .1rem;
+    margin-left: .05rem;
+}
+
+#Search .movie_search .hea_search .input input {
+    width: 2rem;
+    height: .4rem;
+    display: block;
+    color: #777;
+    position: absolute;
+    top: 0;
+    left: .35rem;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-size: .16rem;
+}
+
+#Search .movie_search .hea_search .button{
+    width:.5rem;
+    height: .32rem;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    position: absolute;
+    right: .13rem;
+    top: .04rem;
+    text-align: center;
+    line-height: .32rem;
+    border-radius: .08rem;
+}
+
+#Search .content{
+    /* min-height: 446px; */
+    height:4.46rem;
+}
+
+#Search .content .box{
+    width: 3.75rem;
+    height: 1.43rem;
+}
+
+#Search .content .box .hotsou{
+    width: 100%;
+    height:.32rem;
+    background: #f6f6f6;
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    color: #999;
+    padding: .03rem .15rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+#Search .content .box .keyword {
+    width: 100%;
+    height: 1.1rem;
+    overflow: hidden;
+    padding: .08rem 0 .15rem .08rem;
+    box-sizing: border-box;
+}
+
+#Search .content .box .keyword span{
+    display: inline-block;
+    vertical-align: middle;
+    color: #1e7dd7;
+    padding: .06rem .12rem;
+    border: .01rem solid #b6dcff;
+    border-radius: .3rem;
+    margin: .095rem .03rem .05rem .1rem;
+}

@@ -1,11 +1,15 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
+import { createStore, combineReducers} from "redux";
+import cityidreducer from "./CopyId";
+import titlereducer from "./ChangeTitle";
+import { persistStore, autoRehydrate} from 'redux-persist';
 
-const router = (
-    <Router>
-        <App>
-        </App>
-    </Router>
-)
+var reducer = combineReducers({
+    myTitle: titlereducer,
+    myId: cityidreducer
+})
 
-export default router;
+const store = createStore(reducer);
+
+persistStore(store)
+
+export default store;
