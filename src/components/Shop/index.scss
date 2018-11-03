@@ -1,0 +1,244 @@
+#Shop{
+	background-color:white;
+}
+#Shop .shop{
+	height:0.5rem;
+	background-color: #f6f6f6;
+	overflow: hidden;
+	.shopNav{
+		width: 100%;
+		height: 100%;
+		
+		
+		ul{
+			
+			overflow: hidden;
+			
+			padding:.1rem .2rem;
+			li{
+				float:left;
+				position: relative;
+				width: 85%;
+				i.icon-search{
+					font-size: .2rem;
+					/* color:#bebebe; */
+					color:black;
+					position: absolute;
+					z-index: 10;
+					top:.05rem;
+					left: .1rem;
+				}
+				input{
+					text-indent: .35rem;
+					height: .3rem;
+					line-height: .3rem;
+					width: 100%;
+					border-radius: .1rem;
+					border:none;
+					outline: none;
+				}
+			}
+
+			li:nth-of-type(3){
+				float: right;
+				width: 10%;
+				i{
+					color: #0075c4;
+					font-size: .3rem;
+
+				}
+			}
+		}
+	}
+}
+
+
+/* antd轮播样式重置 */
+.am-wingblank.am-wingblank-lg {
+	margin: 0 !important;
+}
+
+.am-wingblank{
+	margin: 0 !important;
+}
+
+#Shop .navigatorIcon{
+	ul{
+		li{
+			width:25%;
+			float: left;
+			text-align: center;
+			margin-top: .2rem;
+			img{
+				width: 50%;
+			}
+		}
+	}
+}
+
+
+#Shop .cell{
+	width:100%;
+	.cellAC{
+		.cellA{
+			width: 50%;
+			height: 2rem;
+		}
+		.cellC{
+			float: right;
+			width: 50%;
+			img{width:100%}
+		}
+	}
+	.cellB{
+		img{
+			height:1rem;
+			width: 100%;
+		}
+	}
+}
+
+
+
+#Shop .topic{
+	img{
+		width: .7rem;
+		margin-top:1rem;
+		margin-left: .2rem;
+	}
+}
+
+
+#Shop .topicSubList{
+	h4,h3{
+		text-align: center;
+		color:#898989;
+		background-color:white;
+		font-size: 20px;
+	}
+	h4{
+		font-size: 12px;
+	}
+	.goods{
+		overflow: hidden;
+		background-color:white;
+		div{
+			width:30%;
+			float: left;
+			margin-left:.1rem;
+			img{
+				width: 100%;
+			}
+			p{
+				 overflow:hidden;
+				  text-overflow:ellipsis;
+				  white-space:nowrap
+			}
+		}
+	}
+
+	.moregoods{
+		text-align: center;
+		margin-top: .2rem;
+		margin-bottom: .2rem;
+		a{
+			display: inline-block;
+			width: 1.2rem;
+			height: .3rem;
+			line-height: .3rem;
+			background-color:red;
+			border-radius:.2rem;
+		}
+	}
+}
+
+
+#Shop .category{
+	margin-top:.5rem;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	.category1{
+		span:nth-of-type(1){
+			display: inline-block;
+			height: .2rem;
+			width: .1rem;
+			background-color:#e16364;
+
+		}
+		span:nth-of-type(2){
+			position:absolute;
+			margin-left: .1rem;
+			font-size: 18px;
+			color:#ec9e9f
+		}
+		span:nth-of-type(3){
+			float: right;
+			margin-right: .2rem;
+			font-size: 16px;
+		}
+	}
+	.category2{
+		width: 100%;
+		img{
+			width: 100%;
+		}
+	}
+	.category3{
+		width: 100%;
+		.category3-1{
+			text-align: center;
+			span{
+				width: 90%;
+				height: 2px;
+				border-top:1px solid #ededed;
+				display: inline-block;
+			}			
+		}
+
+		span.category3-2{
+			
+			width: 30%;
+			float: left;
+			margin-left: .1rem;
+			img{width:100%;}
+			p{overflow:hidden;
+			  text-overflow:ellipsis;
+			  white-space:nowrap;
+			  width: 100%;}
+		}
+	}
+}
+
+
+#Shop .interest{
+	text-align:center;
+	color:#b0b0b0;
+	padding-top:.3rem;
+	margin-top:.2rem;
+	background-color:#f6f6f6
+}
+
+#Shop .interest1{
+	overflow:hidden;
+	width:45%;
+	display:inline-block;
+	margin-left:.15rem;
+	margin-top:.2rem;
+	margin-bottom:.3rem;
+	img{
+		width: 100%;
+	}
+	p{
+		width: 100%;
+	}
+
+}
+
+
+#Shop .jiazai{
+	text-align:center;
+	width:100%;
+	background-color:#f6f6f6;
+	margin-bottom:.5rem;
+}
